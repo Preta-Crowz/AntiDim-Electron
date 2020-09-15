@@ -18,5 +18,7 @@
   "build": {
     "appId": "dev.siro.antidim"
   },
-  "dependencies": {}
+  "dependencies": {
+    "discord-rpc": "^3.1.4"
+  }
 }
