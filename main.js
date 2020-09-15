@@ -14,6 +14,7 @@ function createWindow () {
     icon: path.join(__dirname, 'antidim/favicon.ico')
   })
 
+  mainWindow.setMenuBarVisibility(null)
   // and load the index.html of the app.
   mainWindow.loadFile('antidim/index.html')
 
