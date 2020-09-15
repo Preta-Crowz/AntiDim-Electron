@@ -1,6 +1,6 @@
 {
   "name": "AntimatterDimensions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "electron build of antimatter dimensions",
   "main": "main.js",
   "scripts": {
