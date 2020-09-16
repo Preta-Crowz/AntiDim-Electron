@@ -16,7 +16,24 @@
     "electron-builder": "^22.8.0"
   },
   "build": {
-    "appId": "dev.siro.antidim"
+    "appId": "dev.siro.antidim",
+    "productName": "Antimatter Dimensions",
+    "copyright": "MIT, original game by IvarK, mod packaged version by aarextiaokhiao, electron app by NekoP",
+    "directories": {
+      "buildResources": "build",
+      "output": "dist",
+      "app": "."
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "tar.gz"
+      ],
+      "category": "Game"
+    },
+    "mac": {
+      "category": "public.app-category.games"
+    }
   },
   "dependencies": {
     "discord-rich-presence": "0.0.8",
